@@ -5,6 +5,8 @@ import github from './github.svg'
 import html from './html.svg'
 import javascript from './javascript.svg'
 import mongodb from './mongodb.svg'
+import django from './django.svg'
+import python from './python.svg'
 import motion from './motion.svg'
 import mui from './mui.svg'
 import nextjs from './nextjs.svg'
@@ -55,5 +57,7 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    django,
+    python
 }

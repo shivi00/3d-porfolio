@@ -13,24 +13,24 @@ const About = () => {
   return (
     <section className='max-container'>
       <h1 className='head-text'>
-        Hello, We're{" "}
+        Hello, I'm{" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>
           {" "}
-          Stratwings
+          Shivangini
         </span>{" "}
         👋
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-        Stratwings' website development team, based in Bangalore, specializes in creating 
-        impactful websites and delivering successful projects for a diverse range of clients.
+        Software Engineer based in Croatia, specializing in technical
+          education through hands-on learning and building applications.
 
         </p>
       </div>
 
       <div className='py-10 flex flex-col'>
-        <h3 className='subhead-text'>Our Expertise</h3>
+        <h3 className='subhead-text'>Work Experience</h3>
 
         <div className='mt-16 flex flex-wrap gap-12'>
           {skills.map((skill) => (
@@ -54,7 +54,7 @@ const About = () => {
         <h3 className='subhead-text'>Work Experience.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            At Stratwings, we've collaborated with a wide array of clients, enhancing our expertise and working with brilliant minds. Here’s the scoop on what we do:
+            I've worked with various companies, honing my skills and collaborating with talented individuals.
           </p>
         </div>
 

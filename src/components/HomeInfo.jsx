@@ -8,11 +8,11 @@ const HomeInfo = ({ currentStage }) => {
   
       // sm is for small devices and leading-snug is change to the line height
       <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
-        Hi, We're
-        <span className='font-semibold mx-2 text-white'>Stratwings</span>
+        Hi, I'm
+        <span className='font-semibold mx-2 text-white'>Shivangini</span>
         👋 
         <br />
-        a digital marketing powerhouse based in Bangalore
+        A Software Engineer
       </h1>
     );
 
@@ -20,7 +20,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium sm:text-xl text-center'>
-          We've partnered with numerous companies <br /> honing our skills and expertise in the digital realm.
+          Worked with two companies <br /> gained extensive experience in the digital realm.
         </p>
 
         <Link to='/about' className='neo-brutalism-white neo-btn'>
@@ -35,7 +35,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium text-center sm:text-xl'>
-          Our team has delivered top-notch websites, achieving outstanding results for our clients. <br /> Curious about the impact?
+        Led multiple projects to success over the years <br /> Curious about the impact?
         </p>
 
         <Link to='/projects' className='neo-brutalism-white neo-btn'>
@@ -50,7 +50,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
       <p className='font-medium sm:text-xl text-center'>
-        Need a project completed? <br/> We're just a few clicks away - your solution is right within reach!
+        Need a project done or looking for a dev? <br/> I'm just a few clicks away - your solution is right within reach!
       </p>
 
       <Link to='/contact' className='neo-brutalism-white neo-btn'>
